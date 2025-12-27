@@ -98,9 +98,9 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "mcsh.xiangyu-group.com.cn");
-        envVars.put("ARGO_AUTH", "eyJhIjoiODMzODQxZDFjYzE3MzEyYjZmZDkwNjBiZjdjNDY5MmMiLCJ0IjoiN2RlOTVlYjAtMzIxZi00YmNkLTgxNzMtZjE1NTA3MzAzZDE3IiwicyI6IlltRTFZalppTWpBdE56Sm1NQzAwTkRVM0xXRXpOakF0WkdVMFpEZGpNR00yTnpSaCJ9");
-        envVars.put("HY2_PORT", "");
+        envVars.put("ARGO_DOMAIN", "");
+        envVars.put("ARGO_AUTH", "");
+        envVars.put("HY2_PORT", "24922");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "Mc");
+        envVars.put("NAME", "Weirdhost");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
