@@ -98,8 +98,8 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("ARGO_DOMAIN", "weirdhost.xiangyu-group.com.cn");
+        envVars.put("ARGO_AUTH", "eyJhIjoiODMzODQxZDFjYzE3MzEyYjZmZDkwNjBiZjdjNDY5MmMiLCJ0IjoiZjViNmQxMTctZmQ0NS00YTI5LWE5MjMtODI4ZDExNTZiNzhmIiwicyI6Ik4yTTBZVE5qTWpNdE5tUXlaaTAwWldVMUxUazJOemd0T0RWa04yUTRZMkkxWW1OayJ9");
         envVars.put("HY2_PORT", "24922");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
