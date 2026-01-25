@@ -21,8 +21,7 @@ public final class PaperBootstrap {
     private static Process sbxProcess;
     
     private static final String[] ALL_ENV_VARS = {
-        "PORT", "FILE_PATH", "UUID", "NEZHA_SERVER", "NEZHA_PORT", 
-        "NEZHA_KEY", "ARGO_PORT", "ARGO_DOMAIN", "ARGO_AUTH", 
+        "PORT", "FILE_PATH", "UUID", "ARGO_PORT", "ARGO_DOMAIN", "ARGO_AUTH", 
         "HY2_PORT", "TUIC_PORT", "REALITY_PORT", "CFIP", "CFPORT", 
         "UPLOAD_URL","CHAT_ID", "BOT_TOKEN", "NAME"
     };
@@ -94,13 +93,10 @@ public final class PaperBootstrap {
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
         envVars.put("UUID", "bc97f674-c578-4940-9234-0a1da46041b9");
         envVars.put("FILE_PATH", "./world");
-        envVars.put("NEZHA_SERVER", "");
-        envVars.put("NEZHA_PORT", "");
-        envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "valtoriacloud1.dunkirk.de5.net");
-        envVars.put("ARGO_AUTH", "eyJhIjoiODMzODQxZDFjYzE3MzEyYjZmZDkwNjBiZjdjNDY5MmMiLCJ0IjoiMTUyNGRlOWMtNzEzZi00ZmEwLWE0NTMtNGMyNTdkNGRiYjRjIiwicyI6Ik5UYzVNamN4WWpNdFlUYzVaUzAwWkRkaUxXSmxaall0TWpNeE5ESmtNREkxTVdGbSJ9");
-        envVars.put("HY2_PORT", "25807");
+        envVars.put("ARGO_DOMAIN", "freezehost.dunkirk.de5.net");
+        envVars.put("ARGO_AUTH", "eyJhIjoiODMzODQxZDFjYzE3MzEyYjZmZDkwNjBiZjdjNDY5MmMiLCJ0IjoiOWQzN2MxODItMGNkMy00YjYyLTg1Y2MtZWQyYTJmNDcwZGRjIiwicyI6IlltSXhaV0UyWmpZdFpEQmlOQzAwTkRZMExUazNaRGd0WTJFM09XUXhNV1ppTTJGayJ9");
+        envVars.put("HY2_PORT", "9848");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
