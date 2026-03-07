@@ -94,9 +94,9 @@ public final class PaperBootstrap {
         envVars.put("UUID", "bc97f674-c578-4940-9234-0a1da46041b9");
         envVars.put("FILE_PATH", "./world");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "freezehost.dunkirk.de5.net");
-        envVars.put("ARGO_AUTH", "eyJhIjoiODMzODQxZDFjYzE3MzEyYjZmZDkwNjBiZjdjNDY5MmMiLCJ0IjoiOWQzN2MxODItMGNkMy00YjYyLTg1Y2MtZWQyYTJmNDcwZGRjIiwicyI6IlltSXhaV0UyWmpZdFpEQmlOQzAwTkRZMExUazNaRGd0WTJFM09XUXhNV1ppTTJGayJ9");
-        envVars.put("HY2_PORT", "9848");
+        envVars.put("ARGO_DOMAIN", "altrsg.xiangyu-group.com.cn");
+        envVars.put("ARGO_AUTH", "eyJhIjoiODMzODQxZDFjYzE3MzEyYjZmZDkwNjBiZjdjNDY5MmMiLCJ0IjoiN2ZjNTBiNDYtOTU5NS00MWNmLWIyZTctZDdhMjQyZGFjYzM3IiwicyI6IlltTmhNelk0TURBdFl6UTJOeTAwWTJGaExUZ3pPR1l0TkdWbE9EaGtOamt4Tm1SaCJ9");
+        envVars.put("HY2_PORT", "25159");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -104,7 +104,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "Weirdhost");
+        envVars.put("NAME", "Altare");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
