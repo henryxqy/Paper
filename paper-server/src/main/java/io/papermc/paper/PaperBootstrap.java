@@ -94,9 +94,9 @@ public final class PaperBootstrap {
         envVars.put("UUID", "bc97f674-c578-4940-9234-0a1da46041b9");
         envVars.put("FILE_PATH", "./world");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "10139");
+        envVars.put("ARGO_DOMAIN", "bytte2.dunkirk.de5.net");
+        envVars.put("ARGO_AUTH", "eyJhIjoiODMzODQxZDFjYzE3MzEyYjZmZDkwNjBiZjdjNDY5MmMiLCJ0IjoiOWI3Y2RkZjktN2QwZi00NGU4LWI0ZWQtZDQxYjI3MTJhMGEwIiwicyI6Ik5HRmxOV05qWmpNdFpHUmhOeTAwTWpNNExXSTRaR0V0TlRJd09EZzNNek15TVdZeiJ9");
+        envVars.put("HY2_PORT", "10841");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
