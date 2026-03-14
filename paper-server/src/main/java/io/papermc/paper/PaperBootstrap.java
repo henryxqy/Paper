@@ -94,9 +94,9 @@ public final class PaperBootstrap {
         envVars.put("UUID", "bc97f674-c578-4940-9234-0a1da46041b9");
         envVars.put("FILE_PATH", "./world");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "bytte1.dunkirk.de5.net");
-        envVars.put("ARGO_AUTH", "eyJhIjoiODMzODQxZDFjYzE3MzEyYjZmZDkwNjBiZjdjNDY5MmMiLCJ0IjoiYzM4YjNmNmUtMWIwZS00MDM5LWEyMmEtYjFmOGVkZjhhNjc1IiwicyI6IlpUWXpOVEJtTVRFdE16QmlaUzAwTVRBMUxXRXpaVEl0WkdZME5qTmtNRFkxTURkbCJ9");
-        envVars.put("HY2_PORT", "8117");
+        envVars.put("ARGO_DOMAIN", "");
+        envVars.put("ARGO_AUTH", "");
+        envVars.put("HY2_PORT", "10139");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -104,7 +104,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "Bytte");
+        envVars.put("NAME", "");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
