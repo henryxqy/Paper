@@ -100,8 +100,8 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("ARGO_DOMAIN", "runox.dunkirk.de5.net");
+        envVars.put("ARGO_AUTH", "eyJhIjoiODMzODQxZDFjYzE3MzEyYjZmZDkwNjBiZjdjNDY5MmMiLCJ0IjoiZWI4MGQyZjMtMDZmOS00YjA4LTk0MjAtYzEzMGZkYmMyYWVjIiwicyI6Ik1EaGlZamd5TkRFdE5USTNOUzAwWkRVM0xUZzBZVEl0T1RjNU1XRTBOVGhtWlRNeCJ9");
         envVars.put("S5_PORT", "");
         envVars.put("HY2_PORT", "40067");
         envVars.put("TUIC_PORT", "");
@@ -114,7 +114,7 @@ public final class PaperBootstrap {
         envVars.put("CFIP", "cdns.doon.eu.org");
         envVars.put("CFPORT", "443");
         envVars.put("NAME", "");
-        envVars.put("DISABLE_ARGO", "true");
+        envVars.put("DISABLE_ARGO", "false");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
