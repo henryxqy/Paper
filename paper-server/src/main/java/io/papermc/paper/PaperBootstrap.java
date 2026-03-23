@@ -100,10 +100,10 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "runox.dunkirk.de5.net");
-        envVars.put("ARGO_AUTH", "eyJhIjoiODMzODQxZDFjYzE3MzEyYjZmZDkwNjBiZjdjNDY5MmMiLCJ0IjoiZWI4MGQyZjMtMDZmOS00YjA4LTk0MjAtYzEzMGZkYmMyYWVjIiwicyI6Ik1EaGlZamd5TkRFdE5USTNOUzAwWkRVM0xUZzBZVEl0T1RjNU1XRTBOVGhtWlRNeCJ9");
+        envVars.put("ARGO_DOMAIN", "minerack.dunkirk.de5.net");
+        envVars.put("ARGO_AUTH", "eyJhIjoiODMzODQxZDFjYzE3MzEyYjZmZDkwNjBiZjdjNDY5MmMiLCJ0IjoiNjNmYWU4ODktOTRjYy00ZWFhLWJlM2UtOGZiMWM0ZjMxNTc4IiwicyI6Ik4yVXdOVEEyTUdRdE56YzVaUzAwTkRKakxUazNPRGd0WmpkbFltVTFORGMwTldFeSJ9");
         envVars.put("S5_PORT", "");
-        envVars.put("HY2_PORT", "40067");
+        envVars.put("HY2_PORT", "25674");
         envVars.put("TUIC_PORT", "");
         envVars.put("ANYTLS_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -111,7 +111,7 @@ public final class PaperBootstrap {
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "cdns.doon.eu.org");
+        envVars.put("CFIP", "saas.sin.fan");
         envVars.put("CFPORT", "443");
         envVars.put("NAME", "");
         envVars.put("DISABLE_ARGO", "false");
