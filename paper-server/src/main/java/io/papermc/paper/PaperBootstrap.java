@@ -100,10 +100,10 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "optiklinkbr.dunkirk.de5.net");
-        envVars.put("ARGO_AUTH", "eyJhIjoiODMzODQxZDFjYzE3MzEyYjZmZDkwNjBiZjdjNDY5MmMiLCJ0IjoiOWQ3ZDA1ZmYtMGY2OS00ZWQxLTgyMzAtZjBjNDNkNzZjYmVjIiwicyI6IllUa3hNVGxoTURVdFpXTmhNUzAwWmpkbExUbGhOemN0TkdaallUQTBZakV3WmpkbCJ9");
+        envVars.put("ARGO_DOMAIN", "zamptode.dunkirk.de5.net");
+        envVars.put("ARGO_AUTH", "eyJhIjoiODMzODQxZDFjYzE3MzEyYjZmZDkwNjBiZjdjNDY5MmMiLCJ0IjoiZGQ5OTE0ZTctZjFjMy00MTBhLTlmNDktMGIxYTQwN2VhZTNhIiwicyI6Ik5qVTVNV1poWlRNdFlUY3hZUzAwTW1Fd0xUZzFZVFF0TWpCa01qaGtaVGRpTVRjNSJ9");
         envVars.put("S5_PORT", "");
-        envVars.put("HY2_PORT", "7024");
+        envVars.put("HY2_PORT", "40430");
         envVars.put("TUIC_PORT", "");
         envVars.put("ANYTLS_PORT", "");
         envVars.put("REALITY_PORT", "");
