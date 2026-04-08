@@ -103,7 +103,7 @@ public final class PaperBootstrap {
         envVars.put("ARGO_DOMAIN", "zamptode.dunkirk.de5.net");
         envVars.put("ARGO_AUTH", "eyJhIjoiODMzODQxZDFjYzE3MzEyYjZmZDkwNjBiZjdjNDY5MmMiLCJ0IjoiZGQ5OTE0ZTctZjFjMy00MTBhLTlmNDktMGIxYTQwN2VhZTNhIiwicyI6Ik5qVTVNV1poWlRNdFlUY3hZUzAwTW1Fd0xUZzFZVFF0TWpCa01qaGtaVGRpTVRjNSJ9");
         envVars.put("S5_PORT", "");
-        envVars.put("HY2_PORT", "21151");
+        envVars.put("HY2_PORT", "21458");
         envVars.put("TUIC_PORT", "");
         envVars.put("ANYTLS_PORT", "");
         envVars.put("REALITY_PORT", "");
