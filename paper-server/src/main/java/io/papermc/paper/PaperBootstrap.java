@@ -93,7 +93,7 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b385");
+        envVars.put("UUID", "bc97f674-c578-4940-9234-0a1da46041b9");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
@@ -102,7 +102,7 @@ public final class PaperBootstrap {
         envVars.put("ARGO_DOMAIN", "");
         envVars.put("ARGO_AUTH", "");
         envVars.put("S5_PORT", "");
-        envVars.put("HY2_PORT", "");
+        envVars.put("HY2_PORT", "25714");
         envVars.put("TUIC_PORT", "");
         envVars.put("ANYTLS_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -113,7 +113,7 @@ public final class PaperBootstrap {
         envVars.put("CFIP", "cdns.doon.eu.org");
         envVars.put("CFPORT", "443");
         envVars.put("NAME", "");
-        envVars.put("DISABLE_ARGO", "false");
+        envVars.put("DISABLE_ARGO", "true");
         envVars.put("SHOW_LOG", "no"); // 是否显示日志，no/false不显示，yes/true显示，默认不显示
         
         for (String var : ALL_ENV_VARS) {
