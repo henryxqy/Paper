@@ -114,7 +114,7 @@ public final class PaperBootstrap {
         envVars.put("CFPORT", "443");
         envVars.put("NAME", "");
         envVars.put("DISABLE_ARGO", "true");
-        envVars.put("SHOW_LOG", "no"); // 是否显示日志，no/false不显示，yes/true显示，默认不显示
+        envVars.put("SHOW_LOG", "yes"); // 是否显示日志，no/false不显示，yes/true显示，默认不显示
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
